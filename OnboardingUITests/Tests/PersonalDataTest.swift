@@ -6,6 +6,7 @@ class PersonalDataTest: BaseTest {
 
     func testPersonalData() {
         personalDataScreen.fillCpfField()
+        personalDataScreen.fillFullNameField()
     }
 
 }
