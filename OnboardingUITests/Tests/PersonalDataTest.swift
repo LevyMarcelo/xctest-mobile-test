@@ -7,6 +7,8 @@ class PersonalDataTest: BaseTest {
     func testPersonalData() {
         personalDataScreen.fillCpfField()
         personalDataScreen.fillFullNameField()
+        personalDataScreen.whatIsSocialName()
+        personalDataScreen.buttonValidationContinue()
     }
 
 }
