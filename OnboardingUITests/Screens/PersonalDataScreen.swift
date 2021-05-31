@@ -5,7 +5,6 @@ class PersonalDataScreen: Utils {
     
     let cpfField = "Número do CPF"
     let fullNameField = "Nome completo"
-    let socialNameField = "Nome social (opcional)"
     
     func fillCpfField() {
         write(element: cpfField, value: "443.388.000-03")
