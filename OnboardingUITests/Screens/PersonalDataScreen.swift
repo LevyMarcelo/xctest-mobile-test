@@ -8,23 +8,23 @@ class PersonalDataScreen: Utils {
     let whatIsSocialNameButton = "?"
     let okUnderstoodButton = "Certo, entendi!"
     
-    func fillCpfField() {
-        write(element: cpfField, value: "443.388.000-03")
+    func fillCpfField(value: String) {
+        write(element: cpfField, value: value)
     }
     
-    func fillFullNameField() {
-        write(element: fullNameField, value: "Levy Cunha")
+    func fillFullNameField(value: String) {
+        write(element: fullNameField, value: value)
     }
     
-    func whatIsSocialName() {
+    func whatIsSocialName(text: String) {
         click(element: whatIsSocialNameButton)
-        textValidation(text: "O que é um nome social?")
+        textValidation(text: text)
         click(element: okUnderstoodButton)
     }
     
-    func buttonValidationContinue() {
+    func buttonValidationContinue(button: String) {
         swipeUp()
-        buttonValidation(button: "Continuar")
+        buttonValidation(button: button)
     }
     
 }
