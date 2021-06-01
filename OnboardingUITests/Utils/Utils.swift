@@ -1,5 +1,3 @@
-import Foundation
-
 import XCTest
 
 class Utils: XCTestCase {

@@ -1,5 +1,3 @@
-import Foundation
-
 class PersonalDataTest: BaseTest {
 
     let personalDataScreen = PersonalDataScreen()

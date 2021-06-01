@@ -1,6 +1,3 @@
-import Foundation
-import XCTest
-
 class PersonalDataScreen: Utils {
     
     let cpfField = "Número do CPF"
