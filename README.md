@@ -1,6 +1,6 @@
 # XCTest Mobile Test (iOS)
 
-### Language and Frameworks:
+### Language, Framework and IDE:
 * Swift
 * XCTest
 * Xcode
